@@ -30,3 +30,24 @@ arr8
 
 arr9 = arr8.copy()
 arr9
+
+# -> Shape of Array <- 
+# Shapes
+arr1.shape
+
+arr2.shape
+
+arr10 = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+arr10
+
+arr10.shape   # 3 dimension 
+
+arr10.ndim
+
+arr9.size 
+
+arr8.itemsize       # size of items 
+
+arr8.dtype
+
+arr9.astype('float')      # when to use it? It can be used to clean data => Example Age is stored in float can be reduced to "INT"
